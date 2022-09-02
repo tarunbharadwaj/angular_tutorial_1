@@ -7,8 +7,9 @@ import { FormControl, FormGroup } from '@angular/forms';
   styleUrls: ['./reactive-forms.component.scss'],
 })
 export class ReactiveFormsComponent implements OnInit {
-  form = new FormGroup({
+  reactiveForm = new FormGroup({
     username: new FormControl(),
+    password: new FormControl(),
   });
 
   constructor() {}
